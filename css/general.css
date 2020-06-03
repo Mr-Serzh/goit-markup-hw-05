@@ -122,8 +122,7 @@ img {
   position: absolute;
   width: calc(100% - 30px);
   height: 1px;
-  bottom: 0;
-  margin-bottom: -94px;
+  bottom: -94px;
   background-color: #ececec;
 }
 /* end MAIN */
