@@ -68,6 +68,8 @@ img {
   border-radius: 4px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .botton:hover {
@@ -96,6 +98,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  /* transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .social-links .icon {
@@ -159,6 +163,8 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
@@ -213,12 +219,16 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact .icon {
   fill: var(--primary-text-color);
   margin-right: 10px;
   vertical-align: middle;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact {
@@ -281,6 +291,8 @@ img {
   color: rgba(255, 255, 255, 0.6);
   display: block;
   margin-bottom: 9px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contact:hover,
@@ -346,6 +358,8 @@ img {
 .botton .icon {
   margin-left: 10px;
   fill: #ffffff;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .botton:hover .icon {
