@@ -188,6 +188,7 @@
 .clients-list .link:hover,
 .clients-list .link:focus {
   border-color: var(--accent-color);
+  transform: scale(1.2);
 }
 
 .clients-list .link:hover .icon,
